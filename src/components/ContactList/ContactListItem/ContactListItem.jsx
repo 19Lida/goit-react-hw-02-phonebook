@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
+// import { ContactListItem } from './ContactListItem';
 import styles from './ContactListItem.module.css';
-
 export const ContactListItem = ({ nameId, name, number, deleting }) => {
   return (
     <li className={styles.listItem}>
